@@ -16,8 +16,7 @@ class ViewController: UIViewController {
         let spriteView :SKView = self.view as SKView
         spriteView.showsDrawCount = true
         spriteView.showsNodeCount = true
-        spriteView.showsFPS = true
-        
+        spriteView.showsFPS = true        
     }
 
     override func didReceiveMemoryWarning() {
